@@ -3,7 +3,7 @@ package basicDataStructures;
 import java.util.Scanner;
 
 // 그 해 경과일수
-public class dayOfYear {
+public class DayOfYear {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int[] days = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
