@@ -1,4 +1,4 @@
-package chap01;
+package basicAlgorithm;
 
 import java.util.ArrayList;
 import java.util.Scanner;

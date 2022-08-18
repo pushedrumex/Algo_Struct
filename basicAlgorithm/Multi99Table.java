@@ -1,4 +1,4 @@
-package chap01;
+package basicAlgorithm;
 
 // 99단 출력
 public class Multi99Table {
