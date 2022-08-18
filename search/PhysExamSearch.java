@@ -30,6 +30,7 @@ class PhysExamSearch {
         private static class VisionOrderComparator implements Comparator<PhyscData> {
             public int compare(PhyscData d1, PhyscData d2) {
                 return (d1.vision > d2.vision) ? -1 : (d1.vision < d2.vision) ? 1 : 0;
+                // 오름차순이라면 +,- 위치 변경
             }
         }
     }
