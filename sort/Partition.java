@@ -33,7 +33,8 @@ public class Partition {
             while (arr[pr] > pivot) pr--;
 
             // 교환
-            swap(arr, pl++, pr--);
+            if (pl <= pr) // 범위 체크
+                swap(arr, pl++, pr--);
         }
 
         System.out.println("왼쪽 그룹");

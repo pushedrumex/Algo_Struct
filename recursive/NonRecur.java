@@ -19,6 +19,7 @@ public class NonRecur {
                 continue;
             }
 
+            // n이 0 이하가 되면 출력 시작
             if (!stack.isEmpty()){
                 n = stack.pop();
                 System.out.println(n);

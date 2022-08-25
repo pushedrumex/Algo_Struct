@@ -39,7 +39,8 @@ public class QuickSort {
             while (arr[pr] > pivot) pr--;
 
             // 교환
-            swap(arr, pl++, pr--);
+            if (pl <= pr) //  범위 체크
+                swap(arr, pl++, pr--);
         }
 
         // 요소가 남아 있다면 재귀
