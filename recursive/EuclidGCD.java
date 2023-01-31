@@ -13,8 +13,9 @@ public class EuclidGCD {
 
         System.out.printf("최대공약수는 %d입니다.\n", gcd(n1,n2));
     }
+    // n1 > n2
     static int gcd(int n1, int n2){
-        if (n1%n2 == 0) return n2;
-        return gcd(n2%n1, n1);
+        if (n2 == 0) return n1;
+        return gcd(n2, n1%n2);
     }
 }

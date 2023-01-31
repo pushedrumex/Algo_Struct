@@ -48,7 +48,6 @@ class PhysicalExamination{
         System.out.println("< 신체검사 리스트 >");
         for (int i=0;i<x.length;i++)
             System.out.printf("%-8s%3d%5.1f\n",x[i].name, x[i].height, x[i].vision);
-
         System.out.printf("평균 키 : %5.1fcm\n", aveHeight(x));
 
         int[] vdist = new int[VMAX];
