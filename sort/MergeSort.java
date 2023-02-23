@@ -50,7 +50,7 @@ public class MergeSort {
             while (i <= right && j < p)
                 arr[k++] = temp[j] <= arr[i] ? temp[j++] : arr[i++];
             // 3. 배열에 temp의 나머지 요소를 복사
-            // while (j < p)
+             while (j < p)
                 arr[k++] = temp[j++];
         }
     }
